@@ -1,7 +1,7 @@
 # Google propriety Apps
 # JellyBean 4.2.2
 
-# Bootanimation
+# Stock Nexus Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/media/bootanimation.zip:system/media/bootanimation.zip
 
@@ -109,28 +109,28 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/google/proprietary/common/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so
 
-GPermissions
+#GPermissions
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/google/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/google/proprietary/common/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/google/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml
 
-GPrefs
+#GPrefs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml
 
-GCmdUpdates
+#GCmdUpdates
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt
 
-GFrameworks
+#GFrameworks
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/google/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/google/proprietary/common/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
 
-GSndRecrd
+#GSoundRecord
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/usr/srec/en-US/acoustic_model:system/usr/srec/en-US/acoustic_model \
     vendor/google/proprietary/common/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
@@ -160,7 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm \
     vendor/google/proprietary/common/usr/srec/en-US/symbols:system/usr/srec/en-US/symbols
 
-GVendorFceLck
+#GVendorFaceLock
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
     vendor/google/proprietary/common/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
@@ -170,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin \
     vendor/google/proprietary/common/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin
 
+# FaceLock build.prop
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.facelock.black_timeout=1250 \
 ro.facelock.det_timeout=1500 \
