@@ -7,14 +7,12 @@ PRODUCT_COPY_FILES += \
 
 # GApps
 PRODUCT_PACKAGES += \
-    Books \
+    BasicDreams \
     BrowserProviderProxy \
     CalendarGoogle \
     Chrome \
     ConfigUpdater \
-    Currents \
     FaceLock \
-    GalleryGoogle \
     GenieWidget \
     Gmail2 \
     GmsCore \
@@ -26,10 +24,7 @@ PRODUCT_PACKAGES += \
     GoogleLoginService \
     GooglePartnerSetup \
     GoogleServicesFramework \
-    GoogleTTS \
     LatinImeDictionaryPack \
-    LatinImeGoogle \
-    Magazines \
     Maps \
     MediaUploader \
     Music2 \
@@ -89,6 +84,13 @@ PRODUCT_PACKAGES += \
 
 # GLibs
 PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/common/lib/libRSDriver.so:system/lib/libRSDriver.so \
+    vendor/google/proprietary/common/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/google/proprietary/common/lib/libbcc.sha1.so:system/lib/libbcc.sha1.so \
+    vendor/google/proprietary/common/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
+    vendor/google/proprietary/common/lib/libbt-hci.so:system/lib/libbt-hci.so \
+    vendor/google/proprietary/common/lib/libbt-utils.so:system/lib/libbt-utils.so \
+    vendor/google/proprietary/common/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/google/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/google/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
     vendor/google/proprietary/common/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
@@ -99,15 +101,22 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
     vendor/google/proprietary/common/lib/libgtalk_jni.so:system/lib/libgtalk_jni.so \
     vendor/google/proprietary/common/lib/libgtalk_stabilize.so:system/lib/libgtalk_stabilize.so \
+    vendor/google/proprietary/common/lib/libion_ti.so:system/lib/libion_ti.so \
     vendor/google/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/google/proprietary/common/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
     vendor/google/proprietary/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
     vendor/google/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
     vendor/google/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/google/proprietary/common/lib/liblightcycle.so:system/lib/liblightcycle.so \
+    vendor/google/proprietary/common/lib/libnbaio.so:system/lib/libnbaio.so \
     vendor/google/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
+    vendor/google/proprietary/common/lib/libportable.so:system/lib/libportable.so \
+    vendor/google/proprietary/common/lib/libsparse.so:system/lib/libsparse.so \
     vendor/google/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
-    vendor/google/proprietary/common/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so
+    vendor/google/proprietary/common/lib/libstagefright_chromium_http.so:system/lib/libstagefright_chromium_http.so \
+    vendor/google/proprietary/common/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
+    vendor/google/proprietary/common/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
+    vendor/google/proprietary/common/lib/libsync.so:system/lib/libsync.so
 
 #GPermissions
 PRODUCT_COPY_FILES += \
