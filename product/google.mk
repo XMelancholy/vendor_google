@@ -7,91 +7,58 @@ PRODUCT_COPY_FILES += \
 
 # GApps
 PRODUCT_PACKAGES += \
-    BasicDreams \
-    BrowserProviderProxy \
-    CalendarGoogle \
-    Chrome \
-    ConfigUpdater \
-    FaceLock \
-    GenieWidget \
-    Gmail2 \
-    GmsCore \
-    GoogleBackupTransport \
-    GoogleContactsSyncAdapter \
-    GoogleEars \
-    GoogleEarth \
-    GoogleFeedback \
-    GoogleLoginService \
-    GooglePartnerSetup \
-    GoogleServicesFramework \
-    LatinImeDictionaryPack \
-    Maps \
-    MediaUploader \
-    Music2 \
-    NetworkLocation \
-    OneTimeInitializer \
-    Phonesky \
-    PlusOne \
-    SetupWizard \
-    Street \
-    Talk \
-    Velvet \
-    Videos \
-    VoiceSearchStub \
-    Wallet \
-    YouTube \
-    talkback
-
-#PRODUCT_COPY_FILES += \
-#    vendor/google/proprietary/common/app/Books.apk:system/app/Books.apk \
-#    vendor/google/proprietary/common/app/BrowserProviderProxy.apk:system/app/BrowserProviderProxy.apk \
-#    vendor/google/proprietary/common/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
-#    vendor/google/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
-#    vendor/google/proprietary/common/app/ConfigUpdater.apk:system/app/ConfigUpdater.apk \
-#    vendor/google/proprietary/common/app/Currents.apk:system/app/Currents.apk \
-#    vendor/google/proprietary/common/app/FaceLock.apk:system/app/FaceLock.apk \
-#    vendor/google/proprietary/common/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
-#    vendor/google/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
-#    vendor/google/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
-#    vendor/google/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
-#    vendor/google/proprietary/common/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-#    vendor/google/proprietary/common/app/GoogleEars.apk:system/app/GoogleEars.apk \
-#    vendor/google/proprietary/common/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
-#    vendor/google/proprietary/common/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
-#    vendor/google/proprietary/common/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
-#    vendor/google/proprietary/common/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
-#    vendor/google/proprietary/common/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
-#    vendor/google/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
-#    vendor/google/proprietary/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
-#    vendor/google/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-#    vendor/google/proprietary/common/app/Magazines.apk:system/app/Magazines.apk \
-#    vendor/google/proprietary/common/app/Maps.apk:system/app/Maps.apk \
-#    vendor/google/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
-#    vendor/google/proprietary/common/app/Music2.apk:system/app/Music2.apk \
-#    vendor/google/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
-#    vendor/google/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
-#    vendor/google/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
-#    vendor/google/proprietary/common/app/PlusOne.apk:system/app/PlusOne.apk \
-#    vendor/google/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
-#    vendor/google/proprietary/common/app/Street.apk:system/app/Street.apk \
-#    vendor/google/proprietary/common/app/Talk.apk:system/app/Talk.apk \
-#    vendor/google/proprietary/common/app/talkback.apk:system/app/talkback.apk \
-#    vendor/google/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
-#    vendor/google/proprietary/common/app/Videos.apk:system/app/Videos.apk \
-#    vendor/google/proprietary/common/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
-#    vendor/google/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
-#    vendor/google/proprietary/common/app/YouTube.apk:system/app/YouTube.apk
+    Books.apk \
+    BrowserGoogle.apk \
+    CalendarGoogle.apk \
+    CalendarProvider.apk \
+    ChromeBookmarksSyncAdapter.apk \
+    ConfigUpdater.apk \
+    Currents.apk \
+    DeskClockGoogle.apk \
+    EmailGoogle.apk \
+    Exchange2Google.apk \
+    FaceLock.apk \
+    GalleryGoogle.apk \
+    GenieWidget.apk \
+    Gmail2.apk \
+    GoogleBackupTransport.apk \
+    GoogleContactsSyncAdapter.apk \
+    GoogleEars.apk \
+    GoogleEarth.apk \
+    GoogleFeedback.apk \
+    GoogleLoginService.apk \
+    GooglePartnerSetup.apk \
+    GoogleServicesFramework.apk \
+    GoogleTTS.apk \
+    LatinImeDictionaryPack.apk \
+    LatinImeGoogle.apk \
+    Magazines.apk \
+    Maps.apk \
+    MediaUploader.apk \
+    Music2.apk \
+    MusicFX.apk \
+    NetworkLocation.apk \
+    OneTimeInitializer.apk \
+    Phonesky.apk \
+    PlusOne.apk \
+    PrebuiltGmsCore.apk \
+    SetupWizard.apk \
+    Street.apk \
+    TagGoogle.apk \
+    Talk.apk \
+    Velvet.apk \
+    VideoEditorGoogle.apk \
+    Videos.apk \
+    VoiceSearchStub.apk \
+    Wallet.apk \
+    YouTube.apk \
+    talkback.apk
 
 # GLibs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/common/lib/libRSDriver.so:system/lib/libRSDriver.so \
-    vendor/google/proprietary/common/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/google/proprietary/common/lib/libbcc.sha1.so:system/lib/libbcc.sha1.so \
-    vendor/google/proprietary/common/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
-    vendor/google/proprietary/common/lib/libbt-hci.so:system/lib/libbt-hci.so \
-    vendor/google/proprietary/common/lib/libbt-utils.so:system/lib/libbt-utils.so \
+    vendor/google/proprietary/common/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/google/proprietary/common/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    vendor/google/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
+    vendor/google/proprietary/common/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/google/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
     vendor/google/proprietary/common/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     vendor/google/proprietary/common/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
@@ -101,22 +68,17 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
     vendor/google/proprietary/common/lib/libgtalk_jni.so:system/lib/libgtalk_jni.so \
     vendor/google/proprietary/common/lib/libgtalk_stabilize.so:system/lib/libgtalk_stabilize.so \
-    vendor/google/proprietary/common/lib/libion_ti.so:system/lib/libion_ti.so \
-    vendor/google/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
-    vendor/google/proprietary/common/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
-    vendor/google/proprietary/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
     vendor/google/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
     vendor/google/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/google/proprietary/common/lib/liblightcycle.so:system/lib/liblightcycle.so \
-    vendor/google/proprietary/common/lib/libnbaio.so:system/lib/libnbaio.so \
+    vendor/google/proprietary/common/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/google/proprietary/common/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/google/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
-    vendor/google/proprietary/common/lib/libportable.so:system/lib/libportable.so \
-    vendor/google/proprietary/common/lib/libsparse.so:system/lib/libsparse.so \
+    vendor/google/proprietary/common/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
     vendor/google/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
-    vendor/google/proprietary/common/lib/libstagefright_chromium_http.so:system/lib/libstagefright_chromium_http.so \
-    vendor/google/proprietary/common/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
-    vendor/google/proprietary/common/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
-    vendor/google/proprietary/common/lib/libsync.so:system/lib/libsync.so
+    vendor/google/proprietary/common/lib/libsyncml_core.so:system/lib/libsyncml_core.so \
+    vendor/google/proprietary/common/lib/libsyncml_port.so:system/lib/libsyncml_port.so \
+    vendor/google/proprietary/common/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so
 
 #GPermissions
 PRODUCT_COPY_FILES += \
@@ -162,8 +124,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/common/usr/srec/en-US/hotword_symbols:system/usr/srec/en-US/hotword_symbols \
     vendor/google/proprietary/common/usr/srec/en-US/lintrans_model:system/usr/srec/en-US/lintrans_model \
     vendor/google/proprietary/common/usr/srec/en-US/metadata:system/usr/srec/en-US/metadata \
-    vendor/google/proprietary/common/usr/srec/en-US/normalizer:system/usr/srec/en-US/normalizer \
     vendor/google/proprietary/common/usr/srec/en-US/norm_fst:system/usr/srec/en-US/norm_fst \
+    vendor/google/proprietary/common/usr/srec/en-US/normalizer:system/usr/srec/en-US/normalizer \
     vendor/google/proprietary/common/usr/srec/en-US/offensive_word_normalizer:system/usr/srec/en-US/offensive_word_normalizer \
     vendor/google/proprietary/common/usr/srec/en-US/phonelist:system/usr/srec/en-US/phonelist \
     vendor/google/proprietary/common/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm \
