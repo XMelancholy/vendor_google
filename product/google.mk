@@ -8,15 +8,9 @@ PRODUCT_COPY_FILES += \
 # GApps
 PRODUCT_PACKAGES += \
     Books.apk \
-    BrowserGoogle.apk \
     CalendarGoogle.apk \
-    CalendarProvider.apk \
     ChromeBookmarksSyncAdapter.apk \
     ConfigUpdater.apk \
-    Currents.apk \
-    DeskClockGoogle.apk \
-    EmailGoogle.apk \
-    Exchange2Google.apk \
     FaceLock.apk \
     GalleryGoogle.apk \
     GenieWidget.apk \
@@ -29,14 +23,11 @@ PRODUCT_PACKAGES += \
     GoogleLoginService.apk \
     GooglePartnerSetup.apk \
     GoogleServicesFramework.apk \
-    GoogleTTS.apk \
     LatinImeDictionaryPack.apk \
     LatinImeGoogle.apk \
     Magazines.apk \
     Maps.apk \
     MediaUploader.apk \
-    Music2.apk \
-    MusicFX.apk \
     NetworkLocation.apk \
     OneTimeInitializer.apk \
     Phonesky.apk \
@@ -44,10 +35,8 @@ PRODUCT_PACKAGES += \
     PrebuiltGmsCore.apk \
     SetupWizard.apk \
     Street.apk \
-    TagGoogle.apk \
     Talk.apk \
     Velvet.apk \
-    VideoEditorGoogle.apk \
     Videos.apk \
     VoiceSearchStub.apk \
     Wallet.apk \
