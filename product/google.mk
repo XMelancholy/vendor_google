@@ -3,81 +3,73 @@
 
 # Stock Nexus Bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/common/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/google/proprietary/common/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/google/proprietary/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/google/proprietary/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
 # GApps
 PRODUCT_PACKAGES += \
-    Books.apk \
-    BrowserGoogle.apk \
-    CalendarGoogle.apk \
-    CalendarProvider.apk \
-    ChromeBookmarksSyncAdapter.apk \
-    ConfigUpdater.apk \
-    Currents.apk \
-    DeskClockGoogle.apk \
-    EmailGoogle.apk \
-    Exchange2Google.apk \
-    FaceLock.apk \
-    GalleryGoogle.apk \
-    GenieWidget.apk \
-    Gmail2.apk \
-    GoogleBackupTransport.apk \
-    GoogleContactsSyncAdapter.apk \
-    GoogleEars.apk \
-    GoogleEarth.apk \
-    GoogleFeedback.apk \
-    GoogleLoginService.apk \
-    GooglePartnerSetup.apk \
-    GoogleServicesFramework.apk \
-    GoogleTTS.apk \
-    LatinImeDictionaryPack.apk \
-    LatinImeGoogle.apk \
-    Magazines.apk \
-    Maps.apk \
-    MediaUploader.apk \
-    Music2.apk \
-    MusicFX.apk \
-    NetworkLocation.apk \
-    OneTimeInitializer.apk \
-    Phonesky.apk \
-    PlusOne.apk \
-    PrebuiltGmsCore.apk \
-    SetupWizard.apk \
-    Street.apk \
-    TagGoogle.apk \
-    Talk.apk \
-    Velvet.apk \
-    VideoEditorGoogle.apk \
-    Videos.apk \
-    VoiceSearchStub.apk \
-    Wallet.apk \
-    YouTube.apk \
-    talkback.apk
+    Books \
+    BrowserGoogle \
+    CalendarGoogle \
+    ChromeBookmarksSyncAdapter \
+    ConfigUpdater \
+    Currents \
+    DeskClockGoogle \
+    EmailGoogle \
+    Exchange2Google \
+    FaceLock \
+    GalleryGoogle \
+    GenieWidget \
+    Gmail2 \
+    GoogleBackupTransport \
+    GoogleContactsSyncAdapter \
+    GoogleEars \
+    GoogleEarth \
+    GoogleFeedback \
+    GoogleLoginService \
+    GooglePartnerSetup \
+    GoogleServicesFramework \
+    GoogleTTS \
+    LatinImeDictionaryPack \
+    LatinImeGoogle \
+    Magazines \
+    Maps \
+    MediaUploader \
+    Music2 \
+    NetworkLocation \
+    OneTimeInitializer \
+    Phonesky \
+    PlusOne \
+    PrebuiltGmsCore \
+    SetupWizard \
+    Street \
+    TagGoogle \
+    Talk \
+    Thinkfree \
+    Velvet \
+    VideoEditorGoogle \
+    Videos \
+    VoiceSearchStub \
+    YouTube \
+    talkback
 
 # GLibs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/common/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/google/proprietary/common/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    vendor/google/proprietary/common/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/google/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
-    vendor/google/proprietary/common/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
-    vendor/google/proprietary/common/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/google/proprietary/common/lib/libfrsdk.so:system/lib/libfrsdk.so \
-    vendor/google/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
-    vendor/google/proprietary/common/lib/libgoggles_clientvision.so:system/lib/libgoggles_clientvision.so \
-    vendor/google/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
-    vendor/google/proprietary/common/lib/libgtalk_jni.so:system/lib/libgtalk_jni.so \
-    vendor/google/proprietary/common/lib/libgtalk_stabilize.so:system/lib/libgtalk_stabilize.so \
-    vendor/google/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
-    vendor/google/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
-    vendor/google/proprietary/common/lib/liblightcycle.so:system/lib/liblightcycle.so \
-    vendor/google/proprietary/common/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/google/proprietary/common/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/google/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
-    vendor/google/proprietary/common/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
-    vendor/google/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
-    vendor/google/proprietary/common/lib/libsyncml_core.so:system/lib/libsyncml_core.so \
-    vendor/google/proprietary/common/lib/libsyncml_port.so:system/lib/libsyncml_port.so \
+    vendor/google/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so
+    vendor/google/proprietary/common/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so
+    vendor/google/proprietary/common/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so
+    vendor/google/proprietary/common/lib/libfrsdk.so:system/lib/libfrsdk.so
+    vendor/google/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so
+    vendor/google/proprietary/common/lib/libgoggles_clientvision.so:system/lib/libgoggles_clientvision.so
+    vendor/google/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so
+    vendor/google/proprietary/common/lib/libgtalk_jni.so:system/lib/libgtalk_jni.so
+    vendor/google/proprietary/common/lib/libgtalk_stabilize.so:system/lib/libgtalk_stabilize.so
+    vendor/google/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
+    vendor/google/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so
+    vendor/google/proprietary/common/lib/liblightcycle.so:system/lib/liblightcycle.so
+    vendor/google/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so
+    vendor/google/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so
     vendor/google/proprietary/common/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so
 
 #GPermissions
