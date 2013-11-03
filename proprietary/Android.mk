@@ -27,7 +27,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),grouper)
 
-include $(CLEAR_VAR
+include $(CLEAR_VAR)
 LOCAL_MODULE := GenieWidget
 LOCAL_SRC_FILES := proprietary/common/app/$(LOCAL_MODULE).apk
 LOCAL_MODULE_SUFFIX := .apk
