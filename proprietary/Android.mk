@@ -148,9 +148,9 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ConfigUpdater
+LOCAL_MODULE := ConfigUpdater.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -158,19 +158,19 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleBackupTransport
+LOCAL_MODULE := GoogleBackupTransport.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := system/priv-app
+#LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleFeedback
+LOCAL_MODULE := GoogleFeedback.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -178,9 +178,9 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleLoginService
+LOCAL_MODULE := GoogleLoginService.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -188,9 +188,19 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleOneTimeInitializer
+LOCAL_MODULE := GoogleOneTimeInitializer.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
 LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_CLASS := APPS
+#LOCAL_MODULE_PATH := system/priv-app
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := google
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GooglePartnerSetup.apk
+LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -198,9 +208,9 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GooglePartnerSetup
+LOCAL_MODULE := GoogleServicesFramework.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -208,9 +218,9 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleServicesFramework
+LOCAL_MODULE := Phonesky.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -218,9 +228,9 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Phonesky
+LOCAL_MODULE := PrebuiltGmsCore.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -228,9 +238,9 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := PrebuiltGmsCore
+LOCAL_MODULE := SetupWizard.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -238,9 +248,9 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SetupWizard
+LOCAL_MODULE := Velvet.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
@@ -248,19 +258,9 @@ LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Velvet
+LOCAL_MODULE := talkback.apk
 LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := system/priv-app
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := google
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := talkback
-LOCAL_SRC_FILES := proprietary/common/priv-app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := system/priv-app
 LOCAL_MODULE_TAGS := optional
